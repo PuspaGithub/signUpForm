@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
     display: flex;
@@ -38,17 +39,51 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(237, 230, 230);
     height: 50vh;
     width: 100%;
     margin: auto 0 auto 0;
 }
 
+.form-container h3{
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.for-background {
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 25px;
+    width: 200px;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 3px;
+    padding: 3px;
+
+}
+
+input:focus{
+    border-color: blue;
+}
+
+input:user-invalid{
+    border-color: red;
+}
+
+input:user-valid{
+    border-color: greenyellow;
+}
+
 .elements {
+    
     display: flex;
     flex-direction: column;
     margin-right: 30px;
     margin-bottom: 20px;
+    letter-spacing: 3px;
 }
 
 .input-section {
@@ -56,4 +91,28 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.submit-btn {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 0;
+    background-color: rgb(6, 177, 54);
+    margin-left: 20px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.login-btn {
+    margin: 20px;
+}
+.login-btn a{
+    color: rgb(6, 177, 54);
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
 }
