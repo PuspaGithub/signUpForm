@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+}
+
+.plant-image {
+    width: 40vw;
+    height: 100vh;
+}
+
+.side-image-container{
+    position: relative;
+    display: inline-block;
+}
+
+.odin-logo-container {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+}
+
+.odin-logo {
+    width: 5vw;
+    height: 10vh;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(237, 230, 230);
+    height: 50vh;
+    width: 100%;
+    margin: auto 0 auto 0;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
